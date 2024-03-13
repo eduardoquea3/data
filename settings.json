@@ -1,0 +1,202 @@
+{
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 10,
+    "window.zoomLevel": 2,
+    "terminal.integrated.fontFamily": "DankMono Nerd Font",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "pwsh": {
+            "path": "D:\\Program Files\\Powershell\\7\\pwsh.exe"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "pwsh",
+    "vim.useSystemClipboard": true,
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.editor.showTabs": "single",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-20",
+            "path": "D:\\Program Files\\Java\\jdk-20",
+            "default": true
+        }
+    ],
+    "editor.tabSize": 2,
+    "editor.lineHeight": 1.8,
+    "editor.fontWeight": "500",
+    "editor.wordWrap": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.showSlider": "always",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "editor.minimap.renderCharacters": false,
+    "vim.leader": "<space>",
+    "vim.surround": true,
+    "vim.foldfix": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "s",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.splitEditorDown"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditorRight"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "i"
+            ],
+            "commands": [
+                "extension.toggleBool"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                ":q"
+            ]
+        },
+        {
+            "before": [
+                "<c-p>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<c-b>"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        },
+        {
+            "before": [
+                "<c-s>"
+            ],
+            "commands": [
+                ":w"
+            ]
+        },
+        {
+            "before": [
+                "<c-J>"
+            ],
+            "after": [
+                "<c-w>",
+                "J"
+            ]
+        },
+        {
+            "before": [
+                "<c-L>"
+            ],
+            "after": [
+                "<c-w>",
+                "L"
+            ]
+        },
+        {
+            "before": [
+                "<c-H>"
+            ],
+            "after": [
+                "<c-w>",
+                "H"
+            ]
+        },
+        {
+            "before": [
+                "<c-K>"
+            ],
+            "after": [
+                "<c-w>",
+                "K"
+            ]
+        },
+        {
+            "before": [
+                "<c-c>"
+            ],
+            "after": [
+                "z",
+                "a"
+            ]
+        },
+        {
+            "before": [
+                "<c-a>"
+            ],
+            "after": [
+                "z",
+                "o"
+            ]
+        },
+        {
+            "before": [
+                "<c-f>"
+            ],
+            "after": [
+                "/"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "symbols",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+    }
+}
